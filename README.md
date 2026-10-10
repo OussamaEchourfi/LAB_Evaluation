@@ -28,8 +28,6 @@ Ce dépôt regroupe l'ensemble des **3 exercices d'évaluation** développés en
    - [Structure de la Base de Données (`gestion_etat_civil`)](#-base-de-données-gestion_etat_civil)
    - [Méthodes Implémentées dans la Couche Service](#-méthodes-implémentées-dans-la-couche-service-ex3)
    - [Résultats d'Exécution et Captures d'Écran](#-extraits-des-résultats-dexécution-console-captures-décran---ex3)
-5. [Tableau Récapitulatif Global](#-tableau-récapitulatif-global)
-6. [Commandes d'Exécution et de Test](#-commandes-dexécution-et-de-test)
 
 ---
 
@@ -491,24 +489,31 @@ Schéma relationnel généré avec table parent `personne` et tables enfants `ho
 ## 📸 Extraits des Résultats d'Exécution Console (Captures d'écran - EX3)
 
 **TEST 1 : Liste de toutes les femmes**
+
 ![TEST 1 - Liste des femmes](EX3/Screenshot%202026-10-10%20220449.png)
 
 **TEST 2 : Affichage de la femme la plus âgée**
+
 ![TEST 2 - Femme la plus âgée](EX3/Screenshot%202026-10-10%20220514.png)
 
 **TEST 3 : Épouses de SAFI Said entre 1988 et 2002**
+
 ![TEST 3 - Épouses entre deux dates](EX3/Screenshot%202026-10-10%20220522.png)
 
 **TEST 4 : Nombre d'enfants d'une femme entre deux dates (Requête native nommée)**
+
 ![TEST 4 - Nombre d'enfants](EX3/Screenshot%202026-10-10%20220531.png)
 
 **TEST 5 : Femmes mariées au moins deux fois (Requête nommée)**
+
 ![TEST 5 - Femmes mariées au moins deux fois](EX3/Screenshot%202026-10-10%20220539.png)
 
 **TEST 6 : Hommes mariés à 4 femmes entre deux dates (API Criteria)**
+
 ![TEST 6 - Hommes mariés à 4 femmes](EX3/Screenshot%202026-10-10%20220545.png)
 
 **TEST 7 : Mariages d'un homme avec tous les détails**
+
 ![TEST 7 - Mariages d'un homme avec détails](EX3/Screenshot%202026-10-10%20220554.png)
 
 ---
@@ -518,43 +523,4 @@ Schéma relationnel généré avec table parent `personne` et tables enfants `ho
 ![Validation Tests JUnit 5 EX3](EX3/Screenshot%202026-10-10%20220639.png)
 
 ---
----
 
-## 📊 Tableau Récapitulatif Global
-
-| Critère | Exercice 1 (Stock) | Exercice 2 (Projets) | Exercice 3 (État Civil) |
-| :--- | :--- | :--- | :--- |
-| **Package Entités** | `ma.projet.classes` | `ma.projet.classes` | `ma.projet.beans` |
-| **Entités** | `Categorie`, `Produit`, `Commande`, `LigneCommandeProduit` | `Employe`, `Projet`, `Tache`, `EmployeTache` | `Personne` (abstraite), `Homme`, `Femme`, `Mariage` |
-| **Relations Clés** | `@ManyToOne`, `@OneToMany`, `@EmbeddedId` | `@ManyToOne`, `@OneToMany`, `@EmbeddedId` | `@Inheritance(JOINED)`, `@EmbeddedId` |
-| **Base de Données** | `stock_db` | `gestion_projets` | `gestion_etat_civil` |
-| **Techniques Hibernate** | Requête JPQL nommée (`@NamedQuery`) | Requête JPQL nommée (`@NamedQuery`), Jointures | API Criteria, Requête Nommée JPQL, Requête Nommée Native SQL (`@NamedNativeQuery`) |
-| **Tests Automatisés** | `ProduitServiceTest` (JUnit 5) | `GestionProjetServiceTest` (JUnit 5) | `EtatCivilServiceTest` (JUnit 5) |
-| **Statut du Build** | `BUILD SUCCESS` | `BUILD SUCCESS` | `BUILD SUCCESS` |
-
----
-
-## 💻 Commandes d'Exécution et de Test
-
-Pour compiler, exécuter les tests automatisés ou lancer les applications de démonstration :
-
-### Exercice 1 (Stock)
-```bash
-cd D:/DGSI/JEE/TP_7_Evaluation/EX1
-mvn clean test
-mvn exec:java -Dexec.mainClass="ma.projet.test.TestApp"
-```
-
-### Exercice 2 (Projets)
-```bash
-cd D:/DGSI/JEE/TP_7_Evaluation/EX2
-mvn clean test
-mvn exec:java -Dexec.mainClass="ma.projet.test.TestApp"
-```
-
-### Exercice 3 (État Civil)
-```bash
-cd D:/DGSI/JEE/TP_7_Evaluation/EX3
-mvn clean test
-mvn exec:java -Dexec.mainClass="ma.projet.test.TestApp"
-```
