@@ -1,4 +1,4 @@
-# TP 7 : Évaluation — Applications Java EE avec Persistance Hibernate (JPA)
+# Évaluation — Applications Java EE avec Persistance Hibernate (JPA)
 
 Ce dépôt regroupe l'ensemble des **3 exercices d'évaluation** développés en **Java / JEE**, utilisant le framework de mapping objet-relationnel **Hibernate (Jakarta Persistence)** et une base de données relationnelle **MySQL** (serveur local XAMPP).
 
