@@ -1,0 +1,13 @@
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\beans\Femme.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\beans\Homme.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\beans\Mariage.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\beans\MariagePK.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\beans\Personne.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\dao\IDao.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\service\FemmeService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\service\HommeService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\service\MariageService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\test\TestApp.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\test\TestFemmeService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\test\TestHommeService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX3\src\main\java\ma\projet\util\HibernateUtil.java

@@ -1,0 +1,15 @@
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\classes\Employe.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\classes\EmployeTache.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\classes\EmployeTachePK.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\classes\Projet.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\classes\Tache.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\dao\IDao.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\service\EmployeService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\service\EmployeTacheService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\service\ProjetService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\service\TacheService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\test\TestApp.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\test\TestEmployeService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\test\TestProjetService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\test\TestTacheService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX2\src\main\java\ma\projet\util\HibernateUtil.java

@@ -1,0 +1,16 @@
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\classes\Categorie.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\classes\Commande.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\classes\LigneCommandeProduit.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\classes\LigneCommandeProduitPK.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\classes\Produit.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\dao\IDao.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\service\CategorieService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\service\CommandeService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\service\LigneCommandeService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\service\ProduitService.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\test\TestApp.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\test\TestProduitsEntreDates.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\test\TestProduitsParCategorie.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\test\TestProduitsParCommande.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\test\TestRequeteNommee.java
+D:\DGSI\JEE\TP_7_Evaluation\EX1\src\main\java\ma\projet\util\HibernateUtil.java
